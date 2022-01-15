@@ -19,6 +19,9 @@ const onRequest = (request, response) => {
     case '/hello':
       textHandler.getHello(request, response);
       break;
+    case '/time':
+      textHandler.getTime(request, response);
+      break;
     case '/helloJSON':
       jsonHandler.getHelloJSON(request, response);
       break;
